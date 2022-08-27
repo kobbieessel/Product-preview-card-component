@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@200;300;500;700&display=swap");
+
+:root {
+  /* Primary */
+  --dark-cyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+
+  /* Neutral */
+  --very-dark-blue: hsl(212, 21%, 14%);
+  --dark-grayish-blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+}
+
+* {
+  box-sizing: border-box;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: var(--cream);
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
+}
+main {
+  width: 90%;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+.product-preview-card {
+  background-color: var(--white);
+  /* border: 1px solid red; */
+  width: 60%;
+  height: 560px;
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.product-image {
+  width: 50%;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.product-text {
+  width: 50%;
+  height: 90%;
+  padding: 30px;
+  text-align: left;
+}
+.product-text-heading {
+  padding: 20px 0;
+}
+.product-text h3 {
+  font-weight: 300;
+  font-size: 18px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  letter-spacing: 4px;
+}
+.product-text h1 {
+  font-family: "Fraunces", serif;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 0.95;
+  margin-bottom: 10px;
+}
+#text-description {
+  color: var(--dark-grayish-blue);
+  margin-bottom: 20px;
+  padding: 5px 0;
+  line-height: 1.6;
+  font-size: 1.1em;
+}
+.price {
+  padding: 5px 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#new-price {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: var(--dark-cyan);
+}
+#old-price {
+  font-size: 1.2em;
+  margin-left: 20px;
+}
+button {
+  background-color: var(--dark-cyan);
+  width: 100%;
+  height: 40px;
+  padding: 5px;
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 1.15em;
+  color: var(--white);
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button img {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
