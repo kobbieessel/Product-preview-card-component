@@ -1,6 +1,6 @@
-/*
- 
- */
+/*=============
+      Fonts
+=============*/
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@200;300;500;700&display=swap");
 
 :root {
@@ -86,14 +86,6 @@ h1 {
   padding-bottom: 1rem;
   line-height: 1.7;
 }
-/* p {
-  color: var(--dark-grayish-blue);
-  font-family: Montserrat, sans-serif;
-  font-weight: 500;
-  font-size: 1rem;
-  margin: 1rem 0;
-  line-height: 2; 
-}*/
 .price {
   margin: 1.5rem 0;
   display: flex;
@@ -129,11 +121,11 @@ h1 {
   height: 15px;
   margin-right: 0.4rem;
 }
+
 /*======
 #footer
 ======*/
 footer {
-  /* border: 1px solid red; */
   width: 100%;
   font-size: 15px;
   padding: 1.5em 3em;
